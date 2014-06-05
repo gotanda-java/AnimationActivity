@@ -31,6 +31,7 @@ public class AnimationActivity extends Activity {
 
 			// 画像オブジェクト取得
 			ImageView image = (ImageView) findViewById(R.id.img_andy);
+			ImageView image_bg = (ImageView) findViewById(R.id.img_bg);
 
 			// 選択アイテムを判定して、該当アニメーションを設定
 			Animation animation;
@@ -48,7 +49,10 @@ public class AnimationActivity extends Activity {
 			} else if (item.equals("全部！")) {
 				animation = AnimationUtils.loadAnimation(
 						AnimationActivity.this, R.anim.animation_multi_1);
-			} else {
+			} else if (item.equals("ほめてもらう")) {
+				animation = AnimationUtils.loadAnimation(
+						AnimationActivity.this, R.anim.animation_multi_1);
+			}else {
 				animation = null;
 			}
 

@@ -3,7 +3,7 @@
   <string
     name="app_name">AnimationSample</string>
   <string
-    name="tv_usage">画面をタッチするとアニメーションします。</string>
+    name="tv_usage">画面をタッチするとドロイドくんが数を数えます。</string>
   <string-array
     name="strary_anim_control">
     <item>(無し)</item>
@@ -11,6 +11,9 @@
     <item>拡大縮小</item>
     <item>移動</item>
     <item>全部！</item>
+    <item>ほめてもらう</item>
   </string-array>
+
+
 </resources>
 

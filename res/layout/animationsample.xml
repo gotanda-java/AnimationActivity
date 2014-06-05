@@ -18,11 +18,19 @@
     android:text="@string/tv_usage" />
 
   <ImageView
+    android:id="@+id/img_bg"
+    android:src="@drawable/background"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_height="100dp"
+    android:layout_width="100dp"
+    android:layout_margin="10dp"/>
+
+  <ImageView
     android:id="@+id/img_andy"
     android:src="@drawable/andy"
     android:layout_gravity="center_vertical|center_horizontal"
     android:layout_height="100dp"
     android:layout_width="100dp"
-    android:layout_margin="96dp" />
+     />
 
 </LinearLayout>
